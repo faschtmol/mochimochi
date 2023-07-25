@@ -1,0 +1,79 @@
+/* Overall Styling */
+body {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ font-family: 'Poppins', sans-serif;
+}
+
+/* Header Styling */
+.cabecalho {
+ background-color: #383D58;
+ color: white;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 24px 0;
+}
+
+.cabecalho-imagem {
+ width: 20%;
+}
+
+.cabecalho-lista-item {
+ display: inline-block;
+ margin: 0 16px;
+ font-size: 24px;
+}
+
+/* School Section Styling */
+.escola {
+ background-image: linear-gradient(#424e61, #4ebfe9);
+ color: black;
+ display: flex;
+ justify-content: center;
+ padding: 24px 0;
+}
+
+.escola-div-conteudo {
+ width: 35%;
+}
+
+.escola-título {
+ padding: 24px 0;
+}
+
+/* Student Section Styling */
+.estudante-imagem {
+ width: 120px;
+}
+
+.ícone-do-estudante {
+ width: 24px;
+}
+
+.estudante-div {
+ text-align: center;
+}
+
+.estudante-título {
+ text-align: center;
+}
+
+.estudantes-todos {
+ display: grid;
+ grid-template-columns: 20% 20% 20% 20%;
+}
+
+/* Footer Styling */
+.rodape {
+ background-color: white;
+ text-align: center;
+}
+
+.rodape-imagem {
+ height: 60px;
+ padding: 12px 0;
+}
